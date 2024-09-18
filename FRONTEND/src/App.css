@@ -1,0 +1,143 @@
+#root {
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation {
+  background-color: rgb(108, 108, 162);
+  display: flex;
+  width:150vh;
+  justify-content:center;
+  align-items: center;
+  column-gap: 5vh;
+  padding: 0vh 5vh;
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+}
+.navigation h1{
+  /* background-color: lightblue; */
+  height:10vh;
+}
+
+.button {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3vh;
+  height:10vh;
+  margin-left: 30vh;
+  /* height:0%; */
+}
+.button button { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:65%;
+  width:20vh;
+  
+}
+.SIGNUP{
+  /* visibility: hidden ;  */
+  position : relative;
+  left: 25vh;
+}
+.LOGIN{
+  /* visibility: hidden;  */
+  position : relative;
+  left: 25vh;
+}
+
+/* .LOGOUT {
+  visibility: hidden;
+}  */
+
+
+
+.box1{
+  margin-top: -2.5vh;
+  background-color: rgb(152, 152, 176);
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  height:10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
+}
+.box2{
+  margin-top: -8vh;
+  background-color:rgb(152, 152, 176);
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  height:10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+
+
+.child1 {
+  margin-top: -15vh;
+  background-color:rgb(152, 152, 176);
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  /* height:10vh; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  /* visibility:hidden; */
+}
+
+
+.child2 {
+  margin-top: -32vh;
+  background-color:rgb(152, 152, 176);
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  /* height:10vh; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  /* visibility:hidden; */
+}
+
+
+
+
+.display_box_hidden { 
+  visibility: hidden;
+}
+.display_button_hidden {
+  visibility: hidden;
+}
+
+/* 
+assign class .display_box_hidden for classes .box1, .box2 .child1 , .child2 
+and assign classes .display_button_hidden for classes .SIGNUP , .LOGIN , .LOGOUT in react code while checking for toekn authentication*/
